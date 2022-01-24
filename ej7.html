@@ -14,12 +14,14 @@
       height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: end;
+      align-items: center;
     }
 
     #titulo-cabecera {
       color: #000;
       font-size: 2em;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       z-index: 1;
       margin: 0 auto;
       max-width: 60%;
@@ -34,29 +36,22 @@
       object-fit: cover;
     }
   </style>
-  <title>Ud4 - T2 - Ej6</title>
+  <title>Ud4 - T2 - Ej7</title>
 </head>
 
 <body>
   <main>
     <div id="titulo-cabecera-contenedor">
       <div id="titulo-cabecera">
-        <h1>Esto es una cabecera con vídeo</h1>
-        <p>Esto es un texto descriptivo.</p>
+        <h1>Obedece al hipnosapo</h1>
       </div>
     </div>
 
-    <!-- <div id="contenido">
-      <h1>Hola</h1>
-
-    </div> -->
-
     <div id="div-fondo">
-      <video class="video-bg"autoplay loop muted>
-        <source src="mmedia/video/flight-clouds.webm" type="video/webm">
-        <source src="mmedia/video/flight-clouds.mp4" type="video/mp4">
-        Ups! :( tu navegador no soporta este vídeo.
-      </video>
+      <iframe class="video-bg" src="https://www.youtube.com/embed/oPJTZdA7t3U"
+        title="Obedece al hipnosapo" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
     </div>
   </main>
 </body>

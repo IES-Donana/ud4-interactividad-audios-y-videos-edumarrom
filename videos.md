@@ -40,3 +40,4 @@
 ## Enlaces de interés
 - [Fluid Width Video [css-tricks.com]](https://css-tricks.com/fluid-width-video/)
 - [Creating Intrinsic Ratios for Video [alistapart.com]](https://alistapart.com/article/creating-intrinsic-ratios-for-video/)
+- [MDN: CSS object-fit](https://developer.mozilla.org/es/docs/Web/CSS/object-fit)
